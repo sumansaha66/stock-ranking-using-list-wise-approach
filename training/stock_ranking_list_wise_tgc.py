@@ -430,7 +430,7 @@ if __name__ == '__main__':
     
     # Change the ticker file if you want to experiment with less number of stocks
     if args.t is None:
-        args.t = args.m + '_tickers_qualify_dr-0.98_min-5_smooth.csv'
+        args.t = args.m + '_tickers_qualify_dr-0.98_min-5_smooth_test.csv'
     args.gpu = (args.gpu == 1)
 
     args.inner_prod = (args.inner_prod == 1)
@@ -452,6 +452,7 @@ if __name__ == '__main__':
         loss_name=args.ls
     )
     
+    pred_all = RR_LSTM.train()
     df_loss=RR_LSTM.df_loss
     df_loss.to_csv('df_loss_'+RR_LSTM.loss_name+'_'+RR_LSTM.market_name+'_'+
                    RR_LSTM.relation_name+'_'+
