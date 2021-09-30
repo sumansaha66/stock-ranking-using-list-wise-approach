@@ -1,7 +1,7 @@
 import math
 import numpy as np
 import scipy.stats as sps
-from rbo import rbo_at_k, rbo_at_k_normalised_w
+from rbo import rbo_at_k_normalised_w
 
 def bt_long_calculator(pre_topn, ground_truth, bt_longn, i):
     # back testing on top k stocks
@@ -113,7 +113,7 @@ def evaluate(prediction, ground_truth, mask, report=False):
         bt_long20= bt_long_calculator(pre_top20, ground_truth, bt_long20, i) # back testing on top 20
         bt_long50= bt_long_calculator(pre_top50, ground_truth, bt_long50, i) # back testing on top 50
         
-        # rbo calculation
+        # nrbo calculation
         rbo_at_5_normalised+=rbo_at_k_normalised_w(pre_top5,gt_top5,p=0.80, depth=5)
         rbo_at_10_normalised+=rbo_at_k_normalised_w(pre_top5,gt_top5,p=0.90, depth=10)
         rbo_at_20_normalised+=rbo_at_k_normalised_w(pre_top5,gt_top5,p=0.95,depth=20)
