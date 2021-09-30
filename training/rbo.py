@@ -1,4 +1,4 @@
-# Suman: Most codes here were taken from https://github.com/dlukes/rbo. I have created the rbo_at_k_normalised_w function to calculate rank biased overlap
+# Suman: Most codes here were taken from https://github.com/dlukes/rbo. I have created the rbo_at_k_normalised_w function to calculate normalized rank biased overlap
 
 """Rank-biased overlap, a ragged sorted list similarity measure.
 
