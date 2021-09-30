@@ -5,3 +5,6 @@ We have built our codes on top of the [Temporal_Relational_Stock_Ranking](https:
 
 # Environment
 Python > 3.5 & Tensorflow > 2.0
+
+# Procedure
+There are two main files here. The file "stock_ranking_list_wise_tgc.py" should be used to generate the performance using temporal graph convolution (TGC) approach. Please change the loss function or market names to get different results.
