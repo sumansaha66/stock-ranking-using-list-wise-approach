@@ -8,7 +8,7 @@ Python > 3.5 & Tensorflow > 2.0
 
 # Data
 
-Please collect the sequential data from the [Temporal_Relational_Stock_Ranking/data/2013-01-01/](https://github.com/fulifeng/Temporal_Relational_Stock_Ranking/tree/master/data) folder. All other relevant files can be found in the "data" folder of this repository. Please unzip the "relation.tar.gz" file to get the relation data.
+Please collect the raw historical data from the [Temporal_Relational_Stock_Ranking/data/2013-01-01/](https://github.com/fulifeng/Temporal_Relational_Stock_Ranking/tree/master/data) folder. Please use the [pretrain](https://drive.google.com/file/d/1fyNCZ62pEItTQYEBzLwsZ9ehX_-Ai3qT/view) data to get the pretrained sequential embedding. All other relevant files can be found in the "data" folder of this repository. Please unzip the "relation.tar.gz" file to get the relation data.
 
 # Procedure
 There are two main files here. The file "stock_ranking_list_wise_tgc.py" should be used to generate the performance using temporal graph convolution (TGC) approach. Please change the loss function or market names to get different results.
