@@ -383,7 +383,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.t is None:
-        args.t = args.m + '_tickers_qualify_dr-0.98_min-5_smooth_test.csv'
+        args.t = args.m + '_tickers_qualify_dr-0.98_min-5_smooth.csv'
     args.gpu = (args.gpu == 1)
 
     args.inner_prod = (args.inner_prod == 1)
