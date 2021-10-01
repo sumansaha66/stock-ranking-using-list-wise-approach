@@ -13,3 +13,4 @@ Please collect the raw historical data from the [Temporal_Relational_Stock_Ranki
 # Procedure
 There are two main files here. The file "stock_ranking_list_wise_tgc.py" should be used to generate the performance using temporal graph convolution (TGC) approach. Please change the loss function or market names to get different results.
 
+The file "stock_ranking_list_wise_node2vec.py" should be used to generate the performance using Node2vec approach. Please tune the hyperparameters of Node2vec in the "graph_embedding.py" file, if required.
