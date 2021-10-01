@@ -4,7 +4,7 @@ This repository contains necessary code for the paper "Stock Ranking Prediction 
 We have built our codes on top of the [Temporal_Relational_Stock_Ranking](https://github.com/fulifeng/Temporal_Relational_Stock_Ranking) repository. That was our baseline. However, that repository was created using Tensorflow 1.3 version. We have updated the code for Tensorflow >2.0 versions.
 
 # Environment
-Python > 3.5, Tensorflow > 2.0, Networkx 2.5, [stellargraph 1.2.1](https://stellargraph.readthedocs.io/en/stable/)
+Python > 3.5, Tensorflow > 2.0, [Networkx 2.5](https://networkx.org/), [stellargraph 1.2.1](https://stellargraph.readthedocs.io/en/stable/)
 
 # Data
 
