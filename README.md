@@ -16,5 +16,4 @@ There are two main files here. The file "stock_ranking_list_wise_tgc.py" should 
 We highly encourage to use GPU based system to run the code with full scale data.
 
 # Contact:
-If you have any query, please contact via my linkedin profile.
-https://www.linkedin.com/in/suman-saha-09873a3a/
+If you have any query, please raise an issue.
